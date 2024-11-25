@@ -16,6 +16,15 @@ const Header = () => {
           <li>
             <Link to="/useContext">useContext</Link>
           </li>
+          <li>
+            <Link to="/memo">memo</Link>
+          </li>
+          <li>
+            <Link to="/useCallback">useCallback</Link>
+          </li>
+          <li>
+            <Link to="/useMemo">useMemo</Link>
+          </li>
         </ul>
       </div>
     </>
