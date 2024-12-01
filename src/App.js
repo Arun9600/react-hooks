@@ -7,6 +7,7 @@ import ParentComponent from "./components/useContext/ParentComponent";
 import MemoMain from "./components/memo/MemoMain";
 import CallBackParent from "./components/useCallback/CallBackParent";
 import UseMemoMain from "./components/useMemo/UseMemoMain";
+import Data from "./components/customHook/Data";
 const App = () => {
   return (
     <BrowserRouter>
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/memo" element={<MemoMain />} />
           <Route path="/useCallback" element={<CallBackParent />} />
           <Route path="/useMemo" element={<UseMemoMain />} />
+          <Route path="/customHook" element={<Data />} />
         </Route>
       </Routes>
     </BrowserRouter>

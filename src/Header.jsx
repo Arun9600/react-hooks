@@ -25,6 +25,9 @@ const Header = () => {
           <li>
             <Link to="/useMemo">useMemo</Link>
           </li>
+          <li>
+            <Link to="/customHook">customHookGetMethod</Link>
+          </li>
         </ul>
       </div>
     </>
